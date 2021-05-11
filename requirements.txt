@@ -1,5 +1,7 @@
 streamlit
-gnewsclient
+py_avataaars
+PIL
+random
+base64
 numpy
 pandas
-yfinance
