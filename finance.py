@@ -16,7 +16,7 @@ st.sidebar.header('Customize your avatar')
 option_style = st.sidebar.selectbox('Style', ('CIRCLE', 'TRANSPARENT'))
 
 list_skin_color = ['TANNED','YELLOW','PALE','LIGHT','BROWN','DARK_BROWN','BLACK']
-list_top_type = ['NO HAIR','EYE_PATCH','HAT','HIJAB','TURBAN',
+list_top_type = ['NO_HAIR','EYE_PATCH','HAT','HIJAB','TURBAN',
                  'WINTER_HAT1','WINTER_HAT2','WINTER_HAT3',
                  'WINTER_HAT4','LONG_HAIR_BIG_HAIR','LONG_HAIR_BOB',
                  'LONG_HAIR_BUN','LONG_HAIR_CURLY','LONG_HAIR_CURVY',
