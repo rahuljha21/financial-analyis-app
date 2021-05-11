@@ -155,4 +155,6 @@ rendered_avatar = avatar.render_png_file('avatar.png')
 image = Image.open('avatar.png')
 st.image(image)
 st.subheader('** Download your avatar from here below!!!! **')
+
+st.balloons()
 st.markdown(imagedownload('avatar.png'), unsafe_allow_html=True)
