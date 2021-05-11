@@ -155,8 +155,9 @@ rendered_avatar = avatar.render_png_file('avatar.png')
 image = Image.open('avatar.png')
 st.image(image)
 st.subheader('** Download your avatar from here below!!!! **')
-with st.form(key='my_form'):
-	text_input = st.text_input(label='Enter some text')
-	submit_button = st.form_submit_button(label='Submit')
-st.balloons()
+result=st.button('Download')
+if(result):
+	st.markdown(imagedownload('avatar.png'), unsafe_allow_html=True)
+	
+        st.balloons()
 
