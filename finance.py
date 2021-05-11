@@ -3,7 +3,7 @@ import py_avataaars as pa
 from PIL import Image
 import base64
 from random import randrange
-
+st.write('For customization click on arraow on left upper corner')
 # Page title
 st.markdown("""
 # Avatar Maker
