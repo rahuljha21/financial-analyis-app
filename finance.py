@@ -150,6 +150,7 @@ def imagedownload(filename):
     return href
 
 st.subheader('**Rendered Avatar**')
+st.subheader('** Download your avatar **')
 rendered_avatar = avatar.render_png_file('avatar.png')
 image = Image.open('avatar.png')
 st.image(image)
