@@ -1,6 +1,6 @@
 streamlit
 py_avataaars
-PIL
+pillow
 random
 base64
 numpy
