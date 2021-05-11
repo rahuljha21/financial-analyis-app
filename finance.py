@@ -158,6 +158,5 @@ st.subheader('** Download your avatar from here below!!!! **')
 result=st.button('Download')
 if(result):
 	st.markdown(imagedownload('avatar.png'), unsafe_allow_html=True)
-	
-        st.balloons()
+	st.balloons()
 
