@@ -152,7 +152,7 @@ def imagedownload(filename):
 st.subheader('**Rendered Avatar**')
 
 rendered_avatar = avatar.render_png_file('avatar.png')
-st.subheader('** Download your avatar **')
 image = Image.open('avatar.png')
 st.image(image)
+st.subheader('** Download your avatar **')
 st.markdown(imagedownload('avatar.png'), unsafe_allow_html=True)
