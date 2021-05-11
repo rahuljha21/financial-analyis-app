@@ -1,7 +1,5 @@
 streamlit
 py_avataaars
 pillow
-random
-base64
 numpy
 pandas
