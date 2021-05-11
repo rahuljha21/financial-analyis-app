@@ -8,6 +8,7 @@ st.write('For customization click on arraow on left upper corner')
 st.markdown("""
 # Avatar Maker
 ** Here you can create your own cartoon avatar by selecting feature of your own choice **
+** 'For customization click on arraow on left upper corner' **
 """)
 
 # Sidebar menu for customizing the avatar
