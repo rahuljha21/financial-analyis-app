@@ -7,13 +7,7 @@ from random import randrange
 # Page title
 st.markdown("""
 # Avatar Maker
-This app allows you to build your own custom avatars based on modular templates provided herein.
-**Credits**
-- App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
-- App inspired by the [avataaars generator](https://getavataaars.com) by [Fang-Pen Lin](https://twitter.com/fangpenlin)
-- Built with [py_avataaars](https://pypi.org/project/py-avataaars/) library by [Krzysztof Ebert](https://github.com/kebu)
-- Avatar is based on Sketch library [Avataaars](https://avataaars.com) designed by [Pablo Stanley](https://twitter.com/pablostanley).
----
+** Here you can create your own cartoon avatar by selecting feature of your own choice **
 """)
 
 # Sidebar menu for customizing the avatar
@@ -22,7 +16,7 @@ st.sidebar.header('Customize your avatar')
 option_style = st.sidebar.selectbox('Style', ('CIRCLE', 'TRANSPARENT'))
 
 list_skin_color = ['TANNED','YELLOW','PALE','LIGHT','BROWN','DARK_BROWN','BLACK']
-list_top_type = ['NO_HAIR','EYE_PATCH','HAT','HIJAB','TURBAN',
+list_top_type = ['NO HAIR','EYE_PATCH','HAT','HIJAB','TURBAN',
                  'WINTER_HAT1','WINTER_HAT2','WINTER_HAT3',
                  'WINTER_HAT4','LONG_HAIR_BIG_HAIR','LONG_HAIR_BOB',
                  'LONG_HAIR_BUN','LONG_HAIR_CURLY','LONG_HAIR_CURVY',
